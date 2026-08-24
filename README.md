@@ -26,7 +26,7 @@
 
 ## Outras possibilidades
 
-- [ ] Analise de Sentimento: NLTK pacote `leia-br`
+- [x] Analise de Sentimento: NLTK pacote `leia-br`
 
 - [ ] Analise de palavras mais comuns: spaCy (lemmatizer) e NLTK (senter)
 
