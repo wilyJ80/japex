@@ -1,0 +1,12 @@
+[project]
+name = "japex"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-openai>=1.6.0",
+    "langchain-text-splitters>=1.1.2",
+    "pymupdf>=1.28.2",
+    "spacy>=3.8.15",
+]
