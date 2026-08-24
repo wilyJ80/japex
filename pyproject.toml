@@ -8,6 +8,7 @@ dependencies = [
     "langchain-openai>=1.6.0",
     "langchain-text-splitters>=1.1.2",
     "leia-br>=0.0.1",
+    "openai>=3.3.1",
     "pymupdf>=1.28.2",
     "spacy>=3.8.15",
     "torch>=2.13.0",
