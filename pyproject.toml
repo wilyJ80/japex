@@ -12,4 +12,5 @@ dependencies = [
     "spacy>=3.8.15",
     "torch>=2.13.0",
     "transformers>=5.15.1",
+    "ultralytics>=8.4.127",
 ]
