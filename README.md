@@ -12,7 +12,7 @@
 
 ## O que consta no documento:
 
-- [ ] spaCy vs embeddings locais
+- [x] spaCy vs embeddings locais
 
     - Destacar arquitetura `word2vec`
 

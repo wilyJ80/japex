@@ -2,6 +2,12 @@
 
 - Baixe o modelo do spaCy: `uv run spacy download pt_core_news_lg`
 
+- Suba o modelo de embeddings com o comando:
+
+```
+llama-server -m ./models/embeddinggemma-300M-Q8_0.gguf --embedding --pooling cls -b 1024 -ub 1024 -c 1024 -t 10
+```
+
 ## Descrição
 
 - Preparação, divisão de passagens e busca semântica de documentos.
@@ -78,7 +84,7 @@
 
     - Maximum resident set size (kbytes): 1045980
 
-    - `llama-server -m ./models/embeddinggemma-300M-Q8_0.gguf --embedding --pooling cls -b 1024 -ub 1024 -c 1024 -t 10`
+        - llama.cpp server
 
     ```
     ==================================================

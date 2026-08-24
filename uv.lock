@@ -406,6 +406,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "langchain-openai" },
     { name = "langchain-text-splitters" },
+    { name = "leia-br" },
     { name = "pymupdf" },
     { name = "spacy" },
 ]
@@ -414,6 +415,7 @@ dependencies = [
 requires-dist = [
     { name = "langchain-openai", specifier = ">=1.6.0" },
     { name = "langchain-text-splitters", specifier = ">=1.1.2" },
+    { name = "leia-br", specifier = ">=0.0.1" },
     { name = "pymupdf", specifier = ">=1.28.2" },
     { name = "spacy", specifier = ">=3.8.15" },
 ]
@@ -602,6 +604,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/cc/57/7b6c11080c9e082ebf1456a2e2372fae8f23a85a5ae2869bdd5ab9a6507d/langsmith-0.11.1.tar.gz", hash = "sha256:47998977366acb3ba3093881fd465cbf11a5f8c2f4e87e40a17dda203f6dedf4", size = 4814724, upload-time = "2026-08-19T15:47:44.116Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/f1/85/0ad6df25588122760b2b40ec182eafc55532c9e66015c83e16675bd34a29/langsmith-0.11.1-py3-none-any.whl", hash = "sha256:cfc3437a9cf27440cd0095c24df945edbceb6df10b579bc8b3980b4ad367835f", size = 744589, upload-time = "2026-08-19T15:47:42.043Z" },
+]
+
+[[package]]
+name = "leia-br"
+version = "0.0.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "requests" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/7d/6a/276ffff6982b07b2fd94935447570089e45114c868801492489ffab3859d/leia-br-0.0.1.tar.gz", hash = "sha256:6e663220492b331ced6aef614b8b15505f9735e281f70e1704ec4bcaab979d5d", size = 128645, upload-time = "2022-12-09T05:51:06.446Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/48/23/3428280e47f5b05e295d33b879f6926a02ce92802ec9b7fc55d07b46be4f/leia_br-0.0.1-py2.py3-none-any.whl", hash = "sha256:493f0bf44c1099f02b34d8d351aa461aa1714fea2d4b73516d3ab9b88eff3321", size = 130026, upload-time = "2022-12-09T05:51:04.186Z" },
 ]
 
 [[package]]
