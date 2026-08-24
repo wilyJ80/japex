@@ -14,7 +14,7 @@ llama-server -m ./models/Qwen3.5-2B-Q8_0.gguf -c 1024 -b 1024 -ub 1024 -t 10 --r
 
 - [ ] ~Automatizar a checagem do comportamento adequado do programa (testes de integração)~
 
-- [ ] Documentar tempo e consumo de recursos total
+- [x] Documentar tempo e consumo de recursos total
 
 - [ ] Avaliar se resultados sustentam a tese
 
@@ -35,3 +35,9 @@ llama-server -m ./models/Qwen3.5-2B-Q8_0.gguf -c 1024 -b 1024 -ub 1024 -t 10 --r
     - Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.57
 
     - Maximum resident set size (kbytes): 2534052
+
+- Modelo BERT
+
+    - Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.96
+
+    - Maximum resident set size (kbytes): 1073748

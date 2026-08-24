@@ -10,4 +10,6 @@ dependencies = [
     "leia-br>=0.0.1",
     "pymupdf>=1.28.2",
     "spacy>=3.8.15",
+    "torch>=2.13.0",
+    "transformers>=5.15.1",
 ]
