@@ -1,14 +1,18 @@
 # Preparando o ambiente
 
+```
+llama-server -m ./models/Qwen3.5-2B-Q8_0.gguf -c 1024 -b 1024 -ub 1024 -t 10 --reasoning off
+```
+
 ## Descrição
 
-- Preparação, divisão de passagens e busca semântica de documentos.
+- Análise de sentimento de textos com LLMs e NLTK.
 
 ## Protocolo de testes
 
-- [ ] Buscar base de dados
+- [x] Buscar base de dados
 
-- [ ] Automatizar a checagem do comportamento adequado do programa (testes de integração)
+- [ ] ~Automatizar a checagem do comportamento adequado do programa (testes de integração)~
 
 - [ ] Documentar tempo e consumo de recursos total
 
@@ -22,4 +26,12 @@
 
 - NLTK (leia-br)
 
-- LLM
+    - Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.07
+
+    - Maximum resident set size (kbytes): 40016
+
+- LLM (qwen 2b)
+
+    - Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.57
+
+    - Maximum resident set size (kbytes): 2534052
