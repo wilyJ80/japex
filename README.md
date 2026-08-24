@@ -30,11 +30,13 @@
 
 - [ ] Analise de palavras mais comuns: spaCy (lemmatizer) e NLTK (senter)
 
-- [ ] YOLOv26 classifier
+- [ ] YOLOv26 classifier: TODO
 
 ## Metodologia
 
 - Dois scripts para cada experimento (LLMs/transformers vs alternativas), comparação de tempo de execução e consumo de recursos, ambos medidos com o comando `/usr/bin/time -v`.
+
+    - ATENCAO: RAM NAO E INDICATIVO DE PEGADA DE CARBONO. UTILIZAR CALCULO DE PEGADA DE CARBONO COM BASE EM CPU PRINCIPALMENTE, TEMPO DE CPU, RAM E FATOR MULTIPLICATIVO DA CONTA DE ENERGIA
 
     - Output melhor? Como fazer?
 
