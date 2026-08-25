@@ -32,6 +32,10 @@
 
 - [ ] YOLOv26 classifier: TODO
 
+- [ ] Análise de planilhas
+
+- [ ] Perguntas e respostas em documentos com resposta no documento (transformers QA pipeline)
+
 ## Metodologia
 
 - Limitações
@@ -51,3 +55,13 @@
 - Grande progresso no desempenho de LLMs locais, mas soluções alternativas, por exemplo baseadas em redes neurais, ainda são muito escassas.
 
     - Exemplo: Mamba/RWKV para geração de texto e reranking
+
+## A hierarquia de soluções em peso de processamento
+
+- Baseado em heurísticas
+
+- Baseado em CNNs, RNNs, LSTMs
+
+- Baseado em arquiteturas como BERT
+
+- Baseado em LLMs
