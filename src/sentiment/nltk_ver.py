@@ -15,4 +15,6 @@ texts = [
 ]
 
 for text in texts:
-    print(analisador.polarity_scores(text))
+    print(round(analisador.polarity_scores(text)['compound']))
+
+print("Expected: -1 -1 -1 0 0 1 1 0 1")

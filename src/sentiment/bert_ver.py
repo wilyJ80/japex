@@ -18,5 +18,6 @@ texts = [
 
 for text in texts:
     result = pipe(text)
-    print(result)
+    print(result[0]['label'])
 
+print("Expected: -1 -1 -1 0 0 1 1 0 1")

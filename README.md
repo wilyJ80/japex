@@ -34,6 +34,10 @@
 
 ## Metodologia
 
+- Limitações
+
+    - Fisicamente, os processadores modernos não gastam energia de forma linear.
+
 - Dois scripts para cada experimento (LLMs/transformers vs alternativas), comparação de tempo de execução e consumo de recursos, ambos medidos com o comando `/usr/bin/time -v`.
 
     - ATENCAO: RAM NAO E INDICATIVO DE PEGADA DE CARBONO. UTILIZAR CALCULO DE PEGADA DE CARBONO COM BASE EM CPU PRINCIPALMENTE, TEMPO DE CPU, RAM E FATOR MULTIPLICATIVO DA CONTA DE ENERGIA

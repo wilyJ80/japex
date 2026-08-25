@@ -17,7 +17,7 @@ class AnaliseSentimento(BaseModel):
 llm = ChatOpenAI(
     base_url="http://localhost:8080/v1", # Ajuste a porta se o seu llama.cpp estiver em outra
     api_key=SecretStr("local-no-key"),               # O llama.cpp local não exige chave, mas o campo não pode ser nulo
-    model="Qwen3.5-2B-Q4_K_M.gguf",            # Nome fictício ou o nome do seu modelo GGUF carregado
+    model="Qwen3.5-2B-Q8_0.gguf",            # Nome fictício ou o nome do seu modelo GGUF carregado
     temperature=0.0                       # Temperatura zero garante maior consistência no output estruturado
 )
 
@@ -44,3 +44,5 @@ for text in texts:
     # 5. Acesse os dados diretamente como atributos do objeto
     print(f"ID do Sentimento: {resposta.sentimento_id}")
     print(resposta)
+
+print("Expected: -1 -1 -1 0 0 1 1 0 1")

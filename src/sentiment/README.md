@@ -28,16 +28,38 @@ llama-server -m ./models/Qwen3.5-2B-Q8_0.gguf -c 1024 -b 1024 -ub 1024 -t 10 --r
 
     - Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.07
 
-    - Maximum resident set size (kbytes): 40016
+    - Maximum resident set size (kbytes): 42016
 
-- LLM (qwen 2b)
+    - Percent of CPU this job got: 64%
 
-    - Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.57
+    - CPU: 64 * 0.07 = 4,48
 
-    - Maximum resident set size (kbytes): 2534052
+    - Taxa de acerto: 6/9
 
 - Modelo BERT
 
     - Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.96
 
     - Maximum resident set size (kbytes): 1073748
+
+    - Percent of CPU this job got: 135%
+
+    - CPU: 135 * 5 = 675
+
+    - Taxa de acerto: 8/9
+
+- LLM (qwen 2b Q8_0): ```llama-server -m ./models/Qwen3.5-2B-Q8_0.gguf -c 1024 -b 1024 -ub 1024 -t 10 --reasoning off```
+
+    - Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.57
+
+    - Maximum resident set size (kbytes): 2534052
+
+    - Percent of CPU this job got: 669%
+
+    - CPU: 669 * 35.57 =  23796,33
+
+    - Taxa de acerto: 5/9
+
+### Conclusões
+
+- Diferença grande de cada um dos métodos: em duas ordens de grandeza!
