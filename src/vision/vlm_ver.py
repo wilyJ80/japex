@@ -5,8 +5,11 @@ from openai import OpenAI
 
 # Initialize the client pointing to your local llama.cpp server
 client = OpenAI(
-    base_url="http://localhost:8080/v1",
-    api_key="sk-no-key-required"  # llama.cpp server doesn't require a real key
+    base_url="https://dev.21t.com.br/v1",
+    api_key="sk-no-key-required",
+    default_headers={
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+        }
 )
 
 def encode_image(image_path):
@@ -20,7 +23,7 @@ base64_image = encode_image(image_path)
 
 # Send the multimodal request
 response = client.chat.completions.create(
-    model="Qwen3VL-2B-Instruct.Q4_K_M.gguf",  # llama.cpp ignores this parameter and uses the loaded model
+    model="Qwen3VL-2B-Instruct-Q4_K_M.gguf",  # llama.cpp ignores this parameter and uses the loaded model
     messages=[
         {
             "role": "user",
