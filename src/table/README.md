@@ -37,7 +37,7 @@
 
 - LLM
 
-    - Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.66
+    - Elapsed (wall clock) time (h:mm:ss or m:ss): 0:21.64
 
     - ```
         > **Contratação de empresa especializada para execução de obra de engenhar

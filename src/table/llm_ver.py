@@ -6,9 +6,7 @@ import numpy as np
 # Load the CSV
 df = pd.read_csv('src/table/licitacoes25-08-2026-16-44.csv')
 
-df1, df2, df3, df4, df5, df6, df7, df8, df9, df10, df11, df12, df13, df14, df15, df16 = np.array_split(df, 16)
-
-context = df1
+context = df
 
 model = ChatOpenAI(
     model="Qwen3VL-2B-Instruct-Q4_K_M.gguf",
