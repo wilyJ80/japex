@@ -50,6 +50,8 @@
 
     - Output melhor? Como fazer?
 
+    - Comparar qualidade de saídas
+
 ## Limitações
 
 - Grande progresso no desempenho de LLMs locais, mas soluções alternativas, por exemplo baseadas em redes neurais, ainda são muito escassas.
