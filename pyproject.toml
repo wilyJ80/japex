@@ -12,6 +12,7 @@ dependencies = [
     "pandas>=3.0.5",
     "pymupdf>=1.28.2",
     "spacy>=3.8.15",
+    "tabulate>=0.10.0",
     "torch>=2.13.0",
     "transformers>=5.15.1",
     "ultralytics>=8.4.127",
