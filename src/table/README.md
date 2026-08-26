@@ -21,6 +21,10 @@
 
 - [ ] Avaliar se modelo menor afeta resultados negativamente
 
+## Limitações
+
+- Para executar os testes em tempo hábil, foi selecionada uma tabela de tamanho reduzido, para poder rodar uma LLM com uma janela de contexto menor a fim de reduzir latência a níveis possíveis de se trabalhar.
+
 ## Resultados
 
 - BERT
