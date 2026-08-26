@@ -30,9 +30,9 @@
 
 - [ ] Analise de palavras mais comuns: spaCy (lemmatizer) e NLTK (senter)
 
-- [ ] YOLOv26 classifier: TODO
+- [x] YOLOv26 classifier: TODO
 
-- [ ] Análise de planilhas
+- [x] Análise de planilhas
 
 - [ ] Perguntas e respostas em documentos com resposta no documento (transformers QA pipeline)
 
