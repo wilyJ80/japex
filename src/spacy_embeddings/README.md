@@ -24,7 +24,7 @@ llama-server -m ./models/embeddinggemma-300M-Q8_0.gguf --embedding --pooling cls
 
 - [ ] Construir interface de texto para avaliação dos resultados
 
-- [ ] Avaliar se modelo menor afeta resultados negativamente
+- [ ] Avaliar se modelo menor afeta resultados negativamente <- ATENCAO !!! inclusive spaCy
 
 ## Resultados
 
